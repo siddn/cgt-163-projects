@@ -1,0 +1,85 @@
+
+  <!-- mobile responsive meta -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="plugins/bootstrap/bootstrap.min.css">
+  <!-- magnific popup -->
+  <link rel="stylesheet" href="plugins/magnific-popup/magnific-popup.css">
+  <!-- Slick Carousel -->
+  <link rel="stylesheet" href="plugins/slick/slick.css">
+  <link rel="stylesheet" href="plugins/slick/slick-theme.css">
+  <!-- themify icon -->
+  <link rel="stylesheet" href="plugins/themify-icons/themify-icons.css">
+  <!-- animate -->
+  <link rel="stylesheet" href="plugins/animate/animate.css">
+  <!-- Aos -->
+  <link rel="stylesheet" href="plugins/aos/aos.css">
+  <!-- Stylesheets -->
+  <link href="css/style.css" rel="stylesheet">
+    
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/v4-shims.css">
+  
+  <!--Favicon-->
+  <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+  <link rel="icon" href="images/favicon.png" type="image/x-icon">
+</head>
+<body>
+  
+
+<!-- preloader start -->
+<div class="preloader">
+    <img src="images/preloader.gif" alt="preloader">
+</div>
+<!-- preloader end -->
+
+    
+<!-- navigation -->
+<header>
+    <!-- nav bar -->
+    <div class="navigation">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto">
+
+                        <!-- TODO COME BACK HERE! -->
+  
+                        <li class="nav-item">
+                            <a class="nav-link" href="information.html">Information</a>
+                        </li>
+                        
+                        <li class="nav-item">
+                            <a class="nav-link" href="a1.html">Assignments</a>
+                        </li>
+                        
+                        <li class="nav-item">
+                            <a class="nav-link" href="q1.html">Quizzes</a>
+                        </li>
+                        
+                        <li class="nav-item">
+                            <a class="nav-link" href="final_project.html">Final Project</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link btn btn-primary btn-sm" href="index.html">Cover Page</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </div>
+</header>
+<!-- /navigation --> 
+
+    
+<!-- blog single -->
+<section>
+    <div>
