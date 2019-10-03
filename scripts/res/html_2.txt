@@ -29,7 +29,7 @@
 <body>
  <!-- Side navigation -->
 <div class="sidenav">
-  <a>All Assignments</a>
+  <a><h5>All Assignments</h5></a>
   <a href="a1.html">1</a>
   <a href="a2.html">2</a>
   <a href="a3.html">3</a>
