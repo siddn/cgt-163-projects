@@ -2635,3 +2635,28 @@ ul.tag-list li a:hover {
 a:hover{
     color: #C5B358 !important;
 }
+
+.sidenav {
+  height: 40%; /* Full-height: remove this if you want "auto" height */
+  width: 180px; /* Set the width of the sidebar */
+  position:sticky; /* Fixed Sidebar (stay in place on scroll) */
+  margin-top: 50px;
+  margin-left: 50px;
+  z-index: 1; /* Stay on top */
+  /*top: 0; /* Stay at the top */
+  left: 0;
+    
+  background-color: #fff; /* Black */
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 20px;
+}
+.sidenav a:hover {
+    color:#C5B358 !important
+}
+.sidenav a {
+  padding:6px 5px 5px 17px;
+  text-decoration: none;
+  font-size: 13px;
+  color: #000;
+  display:flex;
+}

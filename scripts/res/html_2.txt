@@ -27,7 +27,25 @@
   <link rel="icon" href="images/favicon.png" type="image/x-icon">
 </head>
 <body>
-  
+ <!-- Side navigation -->
+<div class="sidenav">
+  <a>All Assignments</a>
+  <a href="a1.html">1</a>
+  <a href="a2.html">2</a>
+  <a href="a3.html">3</a>
+  <a href="a4.html">4</a>
+    <a href="a5.html">5</a>
+    <a href="a6.html">6</a>
+    <a href="a7.html">7</a>
+    <a href="a8.html">8</a>
+    <a href="a9.html">9</a>
+    <a href="a10.html">10</a>
+    <a href="a11.html">11</a>
+    <a href="a12.html">12</a>
+    <a href="a13.html">13</a>
+    <a href="a14.html">14</a>
+    <a href="a15.html">15</a>
+</div>
 
 <!-- preloader start -->
 <div class="preloader">
