@@ -25,11 +25,11 @@ for i in df:
 
     copy('res/html_3.txt', output)
     if assignment_number is not 1:
-        output.write('<a href="a' + str(assignment_number-1) + '.html" style="color:white;" class="fa fa-angle-left fa-5x"></a>\n')
+        output.write('<a href="a' + str(assignment_number-1) + '.html" style="color:black;" class="fa fa-angle-left fa-5x"></a>\n')
 
     copy('res/html_4.txt', output)
     if assignment_number is not df.shape[1]:
-        output.write('<a href="a' + str(assignment_number+1) + '.html" style="color:white;" class="fa fa-angle-right fa-5x"></a>\n')
+        output.write('<a href="a' + str(assignment_number+1) + '.html" style="color:black;" class="fa fa-angle-right fa-5x"></a>\n')
 
     copy('res/html_5.txt', output)
     assignment_number += 1

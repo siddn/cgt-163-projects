@@ -743,7 +743,7 @@ button {
 }
 
 .bg-secondary {
-  background-color: #303032 !important;
+  background-color: #fff !important;
 }
 
 .text-primary {
@@ -2647,7 +2647,7 @@ a:hover{
   /*top: 0; /* Stay at the top */
   left: 0;
     
-  background-color: #fff; /* Black */
+  background-color: transparent; /* Black */
   overflow-x: hidden; /* Disable horizontal scroll */
   padding-top: 20px;
 }
