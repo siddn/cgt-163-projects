@@ -4,12 +4,16 @@ def copy(src, dst):
     f = open(src, 'r')
     dst.write(f.read())
     f.close()
-
+index_number = 1
 assignment_number = 1
 df = pd.read_csv('res/assignment_data.csv', header=None, keep_default_na=False)
 
 for i in df:
-    output = open("../a" + str(assignment_number) + ".html", "w")
+    assignment_name = df[0:][i][0]
+    if ("L" in assignment_name):
+        output = open("../a" + assignment_name[2:6] +".html", "w")
+    else :
+        output = open("../a" + str(assignment_number) + ".html", "w")
     copy('res/html_1.txt', output)
     output.write('<title>Assignment ' + str(df[i][0]) + '</title>\n')
     
@@ -24,13 +28,26 @@ for i in df:
 
 
     copy('res/html_3.txt', output)
+    
     if assignment_number is not 1:
-        output.write('<a href="a' + str(assignment_number-1) + '.html" style="color:black;" class="fa fa-angle-left fa-5x"></a>\n')
+        prev_assignment = df[0:][i-1][0]
+        if("L" in prev_assignment):
+            print(prev_assignment)
+            output.write('<a href="a' + prev_assignment[2:6] + '.html" style="color:black;" class="fa fa-angle-left fa-5x"></a>\n')
+        else: output.write('<a href="a' + str(assignment_number-1) + '.html" style="color:black;" class="fa fa-angle-left fa-5x"></a>\n')
 
     copy('res/html_4.txt', output)
-    if assignment_number is not df.shape[1]:
-        output.write('<a href="a' + str(assignment_number+1) + '.html" style="color:black;" class="fa fa-angle-right fa-5x"></a>\n')
-
+    if index_number is not df.shape[1]:
+        next_assignment = df[0:][i+1][0]
+        if("L" in next_assignment):
+            print(next_assignment)
+            output.write('<a href="a' + next_assignment[2:6] + '.html" style="color:black;" class="fa fa-angle-right fa-5x"></a>\n')
+        elif("L" in assignment_name):
+            output.write('<a href="a' + str(assignment_number) + '.html" style="color:black;" class="fa fa-angle-right fa-5x"></a>\n')
+        else: output.write('<a href="a' + str(assignment_number+1) + '.html" style="color:black;" class="fa fa-angle-right fa-5x"></a>\n')
+    print (assignment_number)
     copy('res/html_5.txt', output)
-    assignment_number += 1
+    if (not("L" in assignment_name)):
+        assignment_number += 1
+    index_number +=1
     output.close()
