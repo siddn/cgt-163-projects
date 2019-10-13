@@ -29,7 +29,7 @@ for i in df:
 
     copy('res/html_3.txt', output)
     
-    if assignment_number is not 1:
+    if index_number is not 1:
         prev_assignment = df[0:][i-1][0]
         if("L" in prev_assignment):
             print(prev_assignment)
