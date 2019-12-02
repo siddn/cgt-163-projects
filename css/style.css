@@ -935,7 +935,9 @@ button {
 .navigation .navbar {
   padding: 0;
   background: #fff !important;
-  position: relative;
+  position: fixed;
+    margin-top: 50;
+    top: 0;
 }
 
 .navigation .navbar-brand {
@@ -950,7 +952,7 @@ button {
   z-index: 9;
 }
 
-@media (max-width: 991px) {
+@media (max-width: 1200px) {
   .navigation .navbar-brand {
     position: relative;
     height: unset;
